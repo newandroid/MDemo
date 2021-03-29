@@ -21,16 +21,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activitys.CoroutinesActivity">
+<!--        ScrollMissActivity CoroutinesActivity-->
+        <activity android:name=".activitys.CoroutinesActivity"></activity>
+        <activity android:name=".activitys.ScrollMissActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activitys.TempActivity">
-
-        </activity>
+        <activity android:name=".activitys.TempActivity"></activity>
         <activity android:name=".activitys.ConstraitLayoutActivity" />
         <activity
             android:name=".activitys.DrawerLayoutActivity"
@@ -79,7 +79,7 @@
         <activity android:name=".activitys.ImageTestActivity" />
         <activity android:name=".activitys.CustomDragGroupActivity" />
         <activity android:name=".activitys.CutDownTvListActivity" />
-        <activity android:name=".activitys.ScaleActivity"></activity>
+        <activity android:name=".activitys.ScaleActivity" />
     </application>
 
 </manifest>
