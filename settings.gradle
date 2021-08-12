@@ -1,2 +1,3 @@
+include ':stomptest'
 include ':Interview', ':mvp', ':DataStructureAndAlgorithms', ':designpattern', ':MediaModule', ':daggertest', ':kotlintest', ':thinkjava', ':applab', ':uilib', ':LearnRecyclerView', ':pickerview', ':wheelview', ':myrecyclerviewapp', ':MPChartLib', ':hellojni', ':mrxjava', ':opengl'
 include ':jetpacktest'

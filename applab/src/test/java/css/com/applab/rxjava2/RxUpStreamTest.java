@@ -30,6 +30,7 @@ public class RxUpStreamTest {
         if(!totoGun.isDisposed()){
             totoGun.onNext("other msg");
         }
+//        o.debounce()
 //        s();
 //        totoGun.onNext("other msg");
 //        Observable.just("1", "2", "3").subscribe(System.out::println);

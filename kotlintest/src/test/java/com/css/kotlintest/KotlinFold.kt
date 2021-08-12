@@ -78,7 +78,7 @@ class KotlinFold {
 
     @Test
     fun funInvoke() {
-        var kotlinFold= KotlinFold()
+        var kotlinFold = KotlinFold()
         kotlinFold.funParent(this::empty222)
     }
 
@@ -90,6 +90,16 @@ class KotlinFold {
     fun funParent(empty: () -> Unit) {
         println("funParent")
         empty()
+    }
+    @Test
+    fun callTest(){
+        call {
+            println(it)
+        }
+    }
+    fun call(callInner: (index: Int) -> Unit) {
+        println("call")
+        callInner(0)
     }
 
 

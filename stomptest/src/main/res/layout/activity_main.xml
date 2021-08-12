@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/connectionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="connectClick"
+        android:text="连接"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="topic"
+        android:text="主题"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="253dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/msgTv"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

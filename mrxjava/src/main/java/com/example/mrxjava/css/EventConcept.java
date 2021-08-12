@@ -1,4 +1,4 @@
-package com.example.mrxjava;
+package com.example.mrxjava.css;
 
 import com.example.mrxjava.functions.Func1;
 import com.example.mrxjava.operations.WatchableExtensions;
