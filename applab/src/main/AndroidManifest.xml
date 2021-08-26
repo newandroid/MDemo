@@ -21,23 +21,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="css.com.resourceapi.ResourceApiActivity">
+        <activity android:name=".activitys.EventAndFreshViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activitys.ServiceActivity">
+        <activity android:name="css.com.resourceapi.ResourceApiActivity">
 
         </activity>
+        <activity android:name=".activitys.ServiceActivity"></activity>
 
         <service
             android:name=".service.MyService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".activitys.SingleTouchViewActivity"></activity> <!-- ScrollMissActivity CoroutinesActivity -->
+        <activity android:name=".activitys.SingleTouchViewActivity" /> <!-- ScrollMissActivity CoroutinesActivity -->
         <activity android:name=".activitys.CoroutinesActivity" />
         <activity android:name=".activitys.ScrollMissActivity" />
         <activity android:name=".activitys.TempActivity" />
